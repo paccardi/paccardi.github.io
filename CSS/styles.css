@@ -1,0 +1,105 @@
+body {
+    font-family: calibri, sans-serif;
+    background-color: #e4e3e3;
+    margin: 0;
+    text-align: center;
+  }
+  p{
+    margin:0 10%;
+  }
+  hr {
+    border-color: #807E0D;
+    border-style: dotted none none;
+    border-width: 5px;
+    height: 0;
+    width: 50%;
+  }
+  h1 {
+    color:#0D5380;
+    font-family: perpetua, serif;
+    font-size:3.5rem;
+    margin:0;
+    position: relative;
+  }
+  h2{
+    color: #008024;
+    font-family: perpetua, serif;
+    font-size: 2rem;
+    margin:0;
+  }
+  h3 {
+    color: #008024;
+    font-family: perpetua, serif;
+    font-size: 1.5rem;
+    margin:0;
+  }
+  ul {
+    text-align: left;
+  }
+  ol {
+    text-align: left;
+  }
+  a {
+    color: #204051;
+    text-decoration: none;
+  }
+  a:hover{
+    color: #00330E;
+    font-weight: bold;
+  }
+
+.site-header {
+  background-color: #84a9ac;
+  margin: 1rem;
+}
+.sectionA {
+  background-color: #e4e3e3;
+  margin: 0 auto;
+  width: 40rem;
+}
+.sectionB {
+  background-color:#e4e3e3;
+  border-width: 0;
+  margin: 0 auto;
+  width: 40rem;
+}
+.sectionC {
+  background-color: #e4e3e3;
+  margin: 0 auto;
+  width: 40rem;
+}
+.site-footer {
+  background-color: #84a9ac;
+  padding: 1rem;
+}
+.image-footer{
+  float: none;
+  margin: 0;
+}
+.image-left{
+  float:left;
+  margin: 1.5rem;
+}
+.button_main {
+  background-color: #00330E;
+  color: #e4e3e3;
+  font-size:1rem;
+  padding: .5rem 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.button_header {
+  background-color: inherit;
+  color: #0D5380;
+  font-size:1rem;
+  padding: .5rem 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+/* arete pallette #800000	#807E0D	#767676	#0D5380 #008024 #032033 #00330E */
+/*grey option #687466,lightergreen option #d8ebb5, bluish option #cff1ef*/
+/* pallette option #e4e3e3 #84a9ac #3b6978 #204051 #2b580c #639e67 */
+/*embed font family via fonts.google.com. lesson 52 typography 101 (lesson 53) */
+/*16px=100%=1rem; em will compound, rem is most adaptable*/
